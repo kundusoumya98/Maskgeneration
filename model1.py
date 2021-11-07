@@ -32,7 +32,7 @@ st.markdown("\nThis app will generate Mask of an image report.")
 
 
 col1,col2 = st.columns(2)
-image_1 = col1.file_uploader("X-ray 1",type=['png','jpg','jpeg'])
+image_1 = col1.file_uploader("image 1",type=['png','jpg','jpeg'])
 
 
 col1,col2 = st.columns(2)
