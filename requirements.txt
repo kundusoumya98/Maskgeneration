@@ -10,4 +10,4 @@ nltk
 urllib3
 requests
 pathlib
-skimage
+scikit-image
