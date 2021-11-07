@@ -2,9 +2,6 @@
 import numpy as np # linear algebra
 import os
 import sys
-
-
-import matplotlib.pyplot as plt
 import cv2
 from tqdm import tqdm_notebook, tnrange,notebook
 from itertools import chain
