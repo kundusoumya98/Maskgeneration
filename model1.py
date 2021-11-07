@@ -8,12 +8,12 @@ from itertools import chain
 from skimage.io import imread, imshow, concatenate_images
 from skimage.transform import resize
 from skimage.morphology import label
-from tensorflow.keras.models import Model, load_model
-from tensorflow.keras.layers import Input
-from tensorflow.keras.layers.core import Lambda
-from tensorflow.keras.layers.convolutional import Conv2D, Conv2DTranspose
-from tensorflow.keras.layers.pooling import MaxPooling2D
-from tensorflow.keras.layers.merge import concatenate
+from keras.models import Model, load_model
+from keras.layers import Input
+from keras.layers.core import Lambda
+from keras.layers.convolutional import Conv2D, Conv2DTranspose
+from keras.layers.pooling import MaxPooling2D
+from keras.layers.merge import concatenate
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 import streamlit as st
 import os
@@ -21,7 +21,7 @@ import numpy as np
 import time
 from PIL import Image
 import create_model as cm
-import tensorflow as tf
+import tensorflow.keras as tf
 
 st.markdown("<small>by Soumya Kundu ,Jadavpur University</small>",unsafe_allow_html=True)
 st.title("Mask image Generator")
