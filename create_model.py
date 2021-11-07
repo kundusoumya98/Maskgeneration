@@ -7,7 +7,7 @@ from keras.layers.convolutional import Conv2D, Conv2DTranspose
 from keras.layers.pooling import MaxPooling2D
 from keras.layers.merge import concatenate
 from keras.models import Model, load_model
-import tensorflow.keras  as tf
+
 
 def create_model():
 
