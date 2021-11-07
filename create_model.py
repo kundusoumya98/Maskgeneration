@@ -60,7 +60,7 @@ def create_model():
     outputs = Conv2D(1, (1, 1), activation='sigmoid') (c9)
 
     model = Model(inputs=[inputs], outputs=[outputs])
-    model.compile(optimizer='adam', loss='binary_crossentropy',  metrics=[keras.metrics.MeanIoU(num_classes=2)])
+    model.compile(optimizer='adam', loss='binary_crossentropy',  metrics=[tf.keras.metrics.MeanIoU(num_classes=2)])
 
     model_filename = 'model-tgs-salt-1.h5'
     model_save = model_filename
