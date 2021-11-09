@@ -2,7 +2,7 @@
 import numpy as np # linear algebra
 import os
 import sys
-import cv2
+#import cv2
 from tqdm import tqdm_notebook, tnrange,notebook
 from itertools import chain
 from skimage.io import imread, imshow, concatenate_images
